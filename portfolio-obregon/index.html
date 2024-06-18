@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body class="scroll">
+    <header class="encabezado">
+      <nav class="navegacion">
+        <a class="navegacion__enlace" href="#presentacion">
+        </a>
+        <ul class="enlaces">
+          <li class="enlaces__item">
+            <a class="enlaces__enlace" href="#presentacion">Inicio</a>
+          </li>
+          <li class="enlaces__item">
+            <a class="enlaces__enlace" href="#sobre-mi">Sobre mi</a>
+          </li>
+          <li class="enlaces__item">
+            <a class="enlaces__enlace" href="#proyectos">Proyectos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="principal">
+      <section class="presentacion" id="presentacion">
+        <div class="presentacion__contenedor_info">
+          <h1 class="presentacion__titulo">Cesar Lautaro Obregón</h1>
+          <p class="presentacion__parrafo">
+            Bienvenidos a mi Portfolio, en este sitio podran ver mi informacion personal, mis redes y los proyectos que desarrolle.
+          </p>
+          <div class="presentacion__contenedor_botones">
+            <a
+              href="./assets/docs/cv.pdf"
+              target="_blank"
+              class="boton boton_oscuro"
+              role="button"
+              >Descargar CV</a
+            >
+          </div>
+        </div>
+      </section>
+      <article class="articulo sobre_mi" id="sobre-mi">
+        <h2 class="articulo__titulo">Un poco sobre mi</h2>
+        <div class="articulo__contenedor_descripciones">
+          <section class="seccion_descripcion">
+            <div class="seccion_descripcion__porta_retrato">
+              <img
+                class="seccion_descripcion__imagen"
+                src="./assets/images/profile/trabajo2.jpg"
+                alt="foto trabajando en la oficina"
+                title="trabajando en la oficina"
+              />
+            </div>
+            <div
+              class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+              aria-label="descripcion personal"
+            >
+              <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                Mi historia
+              </h3>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo" >
+                Mi interés por la programación comenzó en el 2021, no sabía mucho sobre el tema, así que decidí
+                 informarme a través de varios videos 
+                en línea. Fue así como descubrí la enorme capacidad de la programación para resolver 
+                problemas y crear soluciones innovadoras. 
+                En 2022 me inscribi en una Tecnicatura Superior en Desarrollo de Software, en el Instituto Juan Mantovani.
+                Durante mis estudios, adquirí la mayoría de los conocimientos que tengo hoy sobre
+                 programación. Aprendí a dominar varios lenguajes de programación, incluyendo HTML,
+                  CSS, PHP, Java y Python. Este camino educativo me proporcionó una base sólida y me permitió 
+                  desarrollar una comprensión profunda de cómo funcionan las tecnologías de software.
+                  Mi objetivo es seguir aprendiendo y perfeccionando mis habilidades. Aspiro a trabajar 
+                  en proyectos innovadores que desafíen mis capacidades y me permitan crecer tanto
+                   personal como profesionalmente.
+              </p>
+            </div>
+          </section>
+          <section class="seccion_descripcion">
+            <div
+              class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+              aria-label="descripcion personal"
+            >
+              <h3 class="seccion_descripcion__titulo" id="mis_hobbies_titulo">
+                Mis hobbies
+              </h3>
+              
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mis hobbies"
+                aria-describedby="mis_hobbies_titulo">
+                Me encanta mantenerme informado sobre las últimas tecnologías y
+                 las novedades en el mundo de la informática. Esta curiosidad constante me permite estar
+                  al día y seguir aprendiendo, algo que encuentro sumamente gratificante.
+                  Fuera del ámbito tecnológico, disfruto mucho de las actividades al aire libre. 
+                  Actualmente, formo parte de un equipo de atletismo, correr no solo me ayuda a
+                   mantenerme en forma, sino que también me proporciona
+                   un tiempo valioso para despejar mi mente y relajarme.
+                   Otro de mis hobbies es jugar al fútbol. Me encanta participar en partidos con 
+                   amigos y también disfruto viendo encuentros de fútbol, ya sea de ligas locales o
+                    internacionales.
+                    Mis hobbies reflejan una combinación de mis pasiones por la tecnología y el deporte. 
+                    Me encanta el equilibrio entre el desafío intelectual y la actividad física y social.
+                     Estos intereses me mantienen activo, motivado y siempre en busca de nuevos aprendizajes y experiencias.
+
+              </p>
+            </div>
+            <div class="seccion_descripcion__porta_retrato">
+              <img
+                class="seccion_descripcion__imagen"
+                src="./assets/images/profile/trabajo3.jpg"
+                alt="foto mientras me encontraba en una reunion de trabajo"
+                title="selfie en una reunion"
+              />
+            </div>
+          </section>
+        </div>
+      </article>
+      <article class="articulo proyectos" id="proyectos">
+        <h2 class="articulo__titulo">Mis proyectos</h2>
+        <div class="contenedor_tarjetas_grid">
+          <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal">
+            <img
+              class="tarjeta__imagen"
+              src="./assets/images/proyectos/tienda.jpg"
+              alt="imagen del proyecto"
+              title="proyecto 1"/>
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_1">Tienda Deportiva</h3>
+              <span class="tarjeta__divisor"></span>
+              <p class="tarjeta__parrafo scroll scroll_fino"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_1">
+                Un sistema enfocado en la venta de productos deportivos como Camisetas, Pantalones, 
+                Medias, Calzados, Conjuntos, etc.
+              </p>
+              <a href="https://github.com/cesarobregon/tienda_deportiva" class="boton boton_oscuro" target="_blank"
+                >Ver proyecto</a>
+            </div>
+          </article>
+          <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal"
+          >
+            <img
+              class="tarjeta__imagen"
+              src="./assets/images/proyectos/clinica.jpg"
+              alt="imagen del proyecto"
+              title="proyecto 2"
+            />
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_2">Clinica</h3>
+              <span class="tarjeta__divisor"></span>
+              <p
+                class="tarjeta__parrafo scroll scroll_fino scroll_gris"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_2" >
+                Un Sistema de turnos medicos pensado para poder administrar turnos, registrar pacientes y ver historias clinicas de los pacientes.
+              </p>
+              <a href="https://github.com/cesarobregon/sistema_clinica_final" class="boton" target="_blank">Ver proyecto</a>
+            </div>
+          </article>
+          <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal"
+          >
+            <img
+              class="tarjeta__imagen"
+              src="./assets/images/proyectos/boha.jpg"
+              alt="imagen del proyecto"
+              title="proyecto 3"
+            />
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_3">Boha</h3>
+              <span class="tarjeta__divisor"></span>
+              <p
+                class="tarjeta__parrafo scroll scroll_fino"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_3">
+                Un sistema de pedidos para el restaurante "Boha", consta de 2 partes, por un lado una aplicacion movil para 
+                que los clientes puedan realizar sus pedidos y por el otro, una pagina web para administrar estos pedidos y 
+                para que los cocineros puedan visualizarlos.
+              </p>
+              <a href="https://github.com/cesarobregon/boha" class="boton boton_oscuro" target="_blank"
+                >Ver proyecto</a
+              >
+            </div>
+          </article>
+        </div>
+      </article>
+    </main>
+    <footer class="pie_de_pagina" role="contentinfo">
+      <div class="pie_de_pagina__columna">
+        <h4 class="pie_de_pagina__titulo_columna">Mis redes</h4>
+        <ul class="enlaces enlaces_redes">
+          <li class="enlaces__item">
+            <a
+              class="enlaces__enlace enlaces__enlace_footer"
+              href="https://github.com/cesarobregon"
+              target="_blank"
+              ><img
+                class="enlaces__icono"
+                src="./assets/images/logos/github-logo.png"
+                alt="logo de github"
+                title="github"
+            /></a>
+          </li>
+          <li class="enlaces__item">
+            <a
+              class="enlaces__enlace enlaces__enlace_footer"
+              href="https://www.instagram.com/cesarobreg/"
+              target="_blank"
+            >
+              <img
+                class="enlaces__icono"
+                src="./assets/images/logos/ig-logo.png"
+                alt="logo de instagram"
+                title="instagram"
+              />
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="pie_de_pagina__columna">
+        <h4 class="pie_de_pagina__titulo_columna">Contactame</h4>
+        <ul class="enlaces enlaces_vertical">
+          <li class="enlaces__item">
+            <a
+              class="enlaces__enlace enlaces__enlace_footer"
+              href="mailto:mail@mail.com"
+              target="_blank"
+              >Mail: cesarobregon66@gmail.com</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="pie_de_pagina__columna" role="navigation">
+        <h4 class="pie_de_pagina__titulo_columna">Secciones</h4>
+        <ul class="enlaces enlaces_vertical">
+          <li class="enlaces__item">
+            <a
+              class="enlaces__enlace enlaces__enlace_footer"
+              href="#presentacion"
+              >Inicio</a
+            >
+          </li>
+          <li class="enlaces__item">
+            <a class="enlaces__enlace enlaces__enlace_footer" href="#sobre-mi"
+              >Sobre mi</a
+            >
+          </li>
+          <li class="enlaces__item">
+            <a class="enlaces__enlace enlaces__enlace_footer" href="#proyectos"
+              >Proyectos</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="pie_de_pagina__copyright">
+        <p>©️Copyright 2024</p>
+      </div>
+    </footer>
+  </body>
+</html>
